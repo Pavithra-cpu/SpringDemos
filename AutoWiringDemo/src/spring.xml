@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <context:annotation-config/>
+        
+      <!--  <bean id="englishExam" class="com.cts.wiringDemo.Exam">
+        <property name="nameOfExam" value="English"></property>
+        <property name="noOfAttempts" value="02"></property>
+        </bean>
+        
+         <bean id="mathsExam" class="com.cts.wiringDemo.Exam">
+        <property name="nameOfExam" value="Maths"></property>
+        <property name="noOfAttempts" value="04"></property>
+        </bean>
+        
+        <bean id="std" class="com.cts.wiringDemo.Student">
+        
+         
+        <property name="exam" ref="examObj"></property>
+        </bean> -->
+        
+         <bean id="englishExam" class="com.cts.wiringDemo.Exam">
+        <property name="nameOfExam" value="English"></property>
+        <property name="noOfAttempts" value="2"></property>
+        </bean>
+        
+       <bean id="mathsExam" class="com.cts.wiringDemo.Exam">
+       <property name="nameOfExam" value="Maths"></property>
+        <property name="noOfAttempts" value="3"></property>
+        </bean>
+        
+     
+      <bean id="std" class="com.cts.wiringDemo.Student">
+
+      </bean>
+        </beans>
