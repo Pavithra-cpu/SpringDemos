@@ -41,7 +41,14 @@
        <descriptorRefs>
          <descriptorRef>jar-with-dependencies</descriptorRef>
        </descriptorRefs>
+       
+                    <source>1.8.0</source>
+                    <target>1.8.0</target>
+                    <fork>true</fork>
+                    <executable>C:\Program Files\Java\jdk1.8.0_181\bin\javac</executable>
      </configuration>
+     
+              
    </plugin>
         </plugins>
     </build>

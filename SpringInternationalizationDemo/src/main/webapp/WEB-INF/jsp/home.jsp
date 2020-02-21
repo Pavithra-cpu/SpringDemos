@@ -6,6 +6,6 @@
 <title>Spring MVC Internationalization</title>
 </head>
 <body>
-<spring:message code="welcome:msg" text="Welcome"></spring:message>
+<spring:message code="welcome.msg" text="Welcome"></spring:message>
 </body>
 </html>
