@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootCourseAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: t-Pavithra6
+Implementation-Vendor-Id: org.cts.springbootdemo
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootCo
+ urseAPI/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
